@@ -5,8 +5,7 @@
 
 - [Basic Overview](#basic-overview)
   - [Background](#background)
-  - [Motivation](#motivation)
-  - [Goal](#goal)
+  - [Goal & Motivation](#motivation)
 - [Exploring Data](#exploring-data)
   - [Initial Intake](#initial-intake)
 - [Predictive Modeling](#predictive-modeling)
@@ -25,9 +24,13 @@ Once the root/mechanism of a certain disease is discovered, identifying a compou
 <p align="center">
   <img src=https://github.com/phamc4/Molecule-Generator/blob/master/images/Drug-discovery-value-chain-1.jpg></img>
   
- ### Motivation
+ ### Goal & Motivation
  
-Spinal muscular atrophy (SMA) is the leading genetic cause of infant mortatlity and childhood disability caused by the loss of function of the survival motor neuron 1 (SMN1). Motivated to expand off of my previous capstone in university, I am looking to see if a neural netwrok is able to generate novel molecules and then ultimately see if it can generate similar molecules to the newest drug in trials to treat SMA, risdiplam. In 2017, the drug spinraza by Biogen was released to treat SMA, at the price of $750,000 the first year and then $375,000 anually. For a more indepth look, I will provide a link to my research proposal below.
+Spinal muscular atrophy (SMA) is the leading genetic cause of infant mortatlity and childhood disability caused by the loss of function of the survival motor neuron 1 (SMN1). Motivated to expand off of my previous capstone in university, I am looking to see if a neural network is able to generate novel molecules and then ultimately see if it can generate similar molecules to the newest drug in trials to treat SMA, risdiplam. 
+
+In 2017, the drug nusinersen, marketed as Spinraza, by Biogen was released to treat SMA, at the price of $750,000 the first year and then $375,000 anually. Additionally, the drug is painfully administered intrathecally(injected directly into the spinal cord to reach the cerebral spinal fluid) and is an antisense oligonucletide (ASOs) aimed at increasing the amount of functional full lenght SMN protein. For a more in-depth look, I will provide a link to my research proposal below.
+
+Although a naive way of generating molecules, generating novel molecules with the help of machine learning can possibly accelerate the way we identify potential compounds and could drastically reduce the drug discovery cost.
 
 
-<iframe src="https://drive.google.com/file/d/1pST7g_NXvMu7DsCHVog7aexyfkU_-Am3/preview" width="640" height="480"></iframe>
+[Spinal Muscular Atrophy Research Proposal](/https://drive.google.com/file/d/1pST7g_NXvMu7DsCHVog7aexyfkU_-Am3/preview')
