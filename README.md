@@ -5,11 +5,11 @@
 
 - [Basic Overview](#basic-overview)
   - [Background](#background)
-  - [Goal & Motivation](#motivation)
+  - [Goal & Motivation](#goal-&-motivation)
 - [Exploring Data](#exploring-data)
-  - [Initial Intake](#initial-intake)
+  - [Molecule Representation](#molecule-representation)
+  - [Preprocessing](#preprocessing)
 - [Predictive Modeling](#predictive-modeling)
-  - [Evaluation](#evaluation)
 - [Future Considerations](#future-considerations)
 
 
@@ -35,3 +35,12 @@ In 2017, the drug nusinersen, marketed as Spinraza, by Biogen was released to tr
 Although a naive way of generating molecules, generating novel molecules with the help of machine learning can possibly accelerate the way we identify potential compounds and could drastically reduce the drug discovery cost. 
 
 
+## Exploring the Data
+
+### Molecule Representation
+
+The goal is to generate molecules with a recurrent neural network. These molecules will most likely not be valid but the idea is to train the model to learn patterns our training molecules to produce some similar molecule. Of course, molecules are traditionally represented with a chemical formula such as C16H18N2O4S (penicillin) or a structural formula. Fortunetely for us, molecules can also be written in string format that is able to be put through a neural network similarly when doing natural language processing. Here is what penicillin would like in its structural format and the string format denoted as SMILES.
+
+### Preprocessing
+
+Here, we will be using a Recurrent Neural Network with a couple layers consisting of LSTMs. 
