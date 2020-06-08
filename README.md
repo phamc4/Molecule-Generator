@@ -5,8 +5,8 @@
 
 - [Basic Overview](#basic-overview)
   - [Background](#background)
-  - [Goal & Motivation](#goal-&-motivation)
-- [Exploring Data](#exploring-data)
+  - [Goal & Motivation](#goal-and-motivation)
+- [Exploring the Data](#exploring-the-data)
   - [Molecule Representation](#molecule-representation)
   - [Preprocessing](#preprocessing)
 - [Predictive Modeling](#predictive-modeling)
@@ -24,7 +24,7 @@ Once the root/mechanism of a certain disease is discovered, identifying a compou
 <p align="center">
   <img src=https://github.com/phamc4/Molecule-Generator/blob/master/images/Drug-discovery-value-chain-1.jpg></img>
   
- ### Goal & Motivation
+ ### Goal and Motivation
  
 Neurodegenerative diseases are currently incurable and result in debilitating conditions, Parkinson's and Huntingtons disease being one of the most severe and common ones. Although more rare, spinal muscular atrophy (SMA) is the leading genetic cause of infant mortatlity and childhood disability caused by the loss of function of the survival motor neuron 1 (SMN1). Motivated to expand off of my previous capstone in university, I am looking to see if a neural network is able to generate novel molecules and then ultimately see if it can generate similar molecules to the newest drug in trials to treat SMA, risdiplam. 
 
