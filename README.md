@@ -9,7 +9,7 @@
 - [Exploring the Data](#exploring-the-data)
   - [Molecule Representation](#molecule-representation)
   - [Preprocessing](#preprocessing)
-- [Predictive Modeling](#predictive-modeling)
+- [Predictive Model](#predictive-model)
 - [Future Considerations](#future-considerations)
 
 
@@ -39,8 +39,8 @@ Although a naive way of generating molecules, generating novel molecules with th
 
 ### Molecule Representation
 
-The goal is to generate molecules with a recurrent neural network. These molecules will most likely not be valid but the idea is to train the model to learn patterns our training molecules to produce some similar molecule. Of course, molecules are traditionally represented with a chemical formula such as C16H18N2O4S (penicillin) or a structural formula. Fortunetely for us, molecules can also be written in string format that is able to be put through a neural network similarly when doing natural language processing. Here is what penicillin would like in its structural format and the string format denoted as SMILES.
+The goal is to generate molecules with a recurrent neural network. These molecules will most likely not be valid but the idea is to train the model to learn patterns our training molecules to produce some similar molecule. Of course, molecules are traditionally represented with a chemical formula such as C16H18N2O4S (penicillin) or a structural formula. Fortunetely for us, molecules can also be written in string format that is able to be put through a neural network similarly when doing natural language processing. Here is what penicillin would like in its structural format and the string format denoted as SMILES. The data was obtained from zinc15.docking.org which contains hundreds of millions of molecules that can be downloaded. Luckily, the have the option of downloading the molecules in SMILES format. 
 
 ### Preprocessing
 
-Here, we will be using a Recurrent Neural Network with a couple layers consisting of LSTMs. 
+Here, we will be using a Recurrent Neural Network with a couple layers consisting of LSTMs. The first step was to create a mapping of characters to integers to allow the neural network to process the data and in end we can translate the results back to characters to make them readable to humans. In SMILES string, they contained special characters like "/", "=", etc and elements of the periodic table such as "C", "N", "O", etc. 
