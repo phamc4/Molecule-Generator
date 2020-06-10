@@ -82,4 +82,7 @@ Generating new molecules after training was more involved than a simple call of 
   
   ## Future Considerations
   
-  This project is an example of a very basic way molecules can be generated with neural networks. Ideally, combining other machine learning such as reinforcement learning would increase the validity of these molecules greatly. One of the pitfalls in this basic model is the complex consideration of the properties molecules have and their restrictions. 
+  This project is an example of a very basic way molecules can be generated with neural networks. Ideally, combining other machine learning such as reinforcement learning would increase the validity of these molecules greatly. One of the pitfalls in this basic model is the complex consideration of the properties molecules have and their restrictions of what make it valid. Another consideration is a way to score and filter out molecules such as classification into active and inactive. 
+    - Random Forests could be used for classification of active and inactive molecules
+    - Finding the optimal molecular properties and binding to a specific site
+    - Transfer learning, refitting the pretrained model with a small data set specific to the target of interest.
