@@ -21,7 +21,7 @@
 ### Background
 In the fields on medicine, biotechnology and pharmacology, developing a new drug from start to finished product is a complex process which can take years and cost billions of dollars. Even before the drug development begins, building up a body of supporting evidence before selecting a target can be costly. The initial research generates data to develop a hypothesis that the inhibition or activation of a protein or pathway will result in a therapeutic effect in a disease. The outcome of this is the selection of a target which ultimately can lead into the discovery phase in order to justify a drug discovery effort. 
 
-Once the root/mechanism of a certain disease is discovered, identifying a compound that effectively treats the disease without serious side effects may make for a long and laborious journey. The candidates for a new drug to treat a disease might include 5,000-10,000 chemical compounds which were picked from millions. On average 2-5% of those candidates will show sufficient promise for further evaluation. The high failure rate associated with pharmaceutical development can be attributed to careful decision making during drug development to avoid costly failures. Also, factors that can make potential compounds considerably difficult to consider as a candidate is toxicity, bioavailability, and other physiochemical features. 
+Once the root/mechanism of a certain disease is discovered, identifying a compound that effectively treats the disease without serious side effects may make for a long and laborious journey. There are hundreds of millions drug-like molecules that could possibly be synthtically accessible and chemist have to select molecules from this large bag of molecules that are active towards the target. The candidates for a new drug to treat a disease might include 5,000-10,000 chemical compounds which were picked from millions. On average 2-5% of those candidates will show sufficient promise for further evaluation. The high failure rate associated with pharmaceutical development can be attributed to careful decision making during drug development to avoid costly failures. Also, factors that can make potential compounds considerably difficult to consider as a candidate is toxicity, bioavailability, and other physiochemical features. 
 
 <p align="center">
   <img src=https://github.com/phamc4/Molecule-Generator/blob/master/images/Drug-discovery-value-chain-1.jpg></img>
@@ -83,6 +83,6 @@ Generating new molecules after training was more involved than a simple call of 
   ## Future Considerations
   
   This project is an example of a very basic way molecules can be generated with neural networks. Ideally, combining other machine learning such as reinforcement learning would increase the validity of these molecules greatly. One of the pitfalls in this basic model is the complex consideration of the properties molecules have and their restrictions of what make it valid. Another consideration is a way to score and filter out molecules such as classification into active and inactive. 
-    - Random Forests could be used for classification of active and inactive molecules
-    - Finding the optimal molecular properties and binding to a specific site
-    - Transfer learning, refitting the pretrained model with a small data set specific to the target of interest.
+   * Random Forests could be used for classification of active and inactive molecules
+   * Finding the optimal molecular properties and binding to a specific site
+   * Transfer learning, refitting the pretrained model with a small data set specific to the target of interest.
